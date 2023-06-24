@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vuz_app_from_empty</string>
+    <string name="user_defined_name">UserDefinedName</string>
+    <string name="tags">UserDefinedTag(s)</string>
+    <string name="default_date">22.02.2022</string>
+    <string name="default_change_date">LastTimeEdited (should count itself)</string>
+    <string name="hint_input_note">Write here</string>
+    <string name="delete_note">Delete note</string>
+    <string name="settings">Settings</string>
+</resources>

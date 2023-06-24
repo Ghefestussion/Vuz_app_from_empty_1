@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/User_given_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:width="0dp"
+            android:background="@color/my_primary"
+            android:inputType="text"
+            android:padding="8dp"
+            android:text="@string/user_defined_name"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            tools:textAlignment="textStart"
+            tools:textColor="@color/off_white" />
+
+        <EditText
+            android:id="@+id/Date_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:width="0dp"
+            android:background="@color/my_primary"
+            android:ems="10"
+            android:inputType="datetime|date"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="@string/default_date"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Time_Changed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/my_primary"
+        android:padding="8dp"
+        android:text="@string/default_change_date"
+        android:textAlignment="textStart"
+        tools:textAlignment="textStart"
+        tools:textColor="@color/off_white" />
+
+    <TextView
+        android:id="@+id/User_Tags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/my_primary"
+        android:inputType="text"
+        android:minHeight="60dp"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="4dp"
+        android:text="@string/tags"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        tools:textAlignment="textStart"
+        tools:textColor="@color/off_white" />
+
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:clipToPadding="false">
+
+        <EditText
+            android:id="@+id/Input_User_Note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/my_primary"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/hint_input_note"
+            android:inputType="textMultiLine"
+            android:minHeight="400dp"
+            android:padding="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:textColor="@color/off_white"
+            tools:textColorHint="@color/white_hint" />
+    </ScrollView>
+
+</LinearLayout>

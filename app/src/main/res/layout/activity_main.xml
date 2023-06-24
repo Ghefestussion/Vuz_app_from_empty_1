@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_black"
+    android:orientation="vertical">
+
+    <SearchView
+        android:id="@+id/Search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:queryHint="Search by tag">
+
+    </SearchView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="24dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Note3_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:padding="8dp"
+                    android:text="@string/user_defined_name" />
+
+                <TextView
+                    android:id="@+id/Note3_tags"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:padding="8dp"
+                    android:text="@string/tags" />
+
+                <TextView
+                    android:id="@+id/Note3_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:minHeight="80dp"
+                    android:padding="8dp"
+                    android:text="User_Text_Preview" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="24dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Note1_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:padding="8dp"
+                    android:text="@string/user_defined_name" />
+
+                <TextView
+                    android:id="@+id/Note1_tags"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:padding="8dp"
+                    android:text="@string/tags" />
+
+                <TextView
+                    android:id="@+id/Note1_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:minHeight="80dp"
+                    android:padding="8dp"
+                    android:text="User_Text_Preview" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="24dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Note2_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:padding="8dp"
+                    android:text="@string/user_defined_name" />
+
+                <TextView
+                    android:id="@+id/Note2_tags"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:padding="8dp"
+                    android:text="@string/tags" />
+
+                <TextView
+                    android:id="@+id/Note2_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:minHeight="80dp"
+                    android:padding="8dp"
+                    android:text="User_Text_Preview" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="24dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Note4_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:padding="8dp"
+                    android:text="@string/user_defined_name" />
+
+                <TextView
+                    android:id="@+id/Note4_tags"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:padding="8dp"
+                    android:text="@string/tags" />
+
+                <TextView
+                    android:id="@+id/Note4_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/my_primary"
+                    android:minHeight="80dp"
+                    android:padding="8dp"
+                    android:text="User_Text_Preview" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

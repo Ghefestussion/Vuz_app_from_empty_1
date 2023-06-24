@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_primary">#403D3D</color>
+    <color name="off_white">#D1D1D1</color>
+    <color name="white_hint">#B5ACAC</color>
+    <color name="off_black">#2C2B2B</color>
+    <color name="m3_highlighted_text">#2C2B2B</color>
+</resources>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Vuz_app_from_empty" parent="Theme.Material3.Dark">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary"> @color/my_primary</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:textColor">@color/off_white</item>
+        <item name="android:textColorPrimary">@color/off_white</item>
+        <item name="android:textColorHint">@color/white_hint</item>
+        <item name="background">@color/off_black</item>
+        <item name="android:textColorHighlight">@color/white</item>
+    </style>
+
+    <style name="Theme.Vuz_app_from_empty" parent="Base.Theme.Vuz_app_from_empty" />
+</resources>
